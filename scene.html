@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/icons/favicon.png"
+    />
+    <title>U Matter | Scene</title>
+  </head>
+  <body id="scene-body">
+    <div class="preload">
+      <p class="text-loader">take a deep breath</p>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="nav-bar">
+      <nav class="nav">
+        <img src="./images/home-img/logo.svg" alt="" class="logo" />
+        <ul class="nav-links">
+          <a href="index.html" class="nav-link">
+            <i class="fas fa-home nav-icon"></i>
+            <span class="nav-text">Home</span>
+          </a>
+
+          <a href="music.html" class="nav-link">
+            <i class="fas fa-music nav-icon"></i>
+            <span class="nav-text">Music</span>
+          </a>
+
+          <a href="scene.html" class="nav-link active">
+            <i class="fas fa-mountain nav-icon"></i>
+            <span class="nav-text">Scene</span>
+          </a>
+
+          <a href="relax.html" class="nav-link">
+            <i class="fas fa-heartbeat nav-icon"></i>
+            <span class="nav-text">Relax & Breathe</span>
+          </a>
+
+          <a href="hope.html" class="nav-link">
+            <i class="fas fa-comments nav-icon"></i>
+            <span class="nav-text">Talk To Hope</span>
+          </a>
+        </ul>
+      </nav>
+    </nav>
+    <!-- mobile-header -->
+    <header class="header mobile-music-header">
+      <!-- mobile logo -->
+      <div class="mobile-logo">
+        <img src="./images/home-img/logo.svg" alt="" />
+      </div>
+      <!-- menu -->
+      <div class="menu">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+    </header>
+    <!-- mobile nav -->
+    <nav class="mobile-nav">
+      <ul class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">
+          <i class="fas fa-home mobile-nav-icon"></i>
+          <span class="mobile-nav-text">Home</span>
+        </a>
+
+        <a href="music.html" class="mobile-nav-link">
+          <i class="fas fa-music mobile-nav-icon"></i>
+
+          <span class="mobile-nav-text">Music</span>
+        </a>
+
+        <a href="scene.html" class="mobile-nav-link mobile-active">
+          <i class="fas fa-mountain mobile-nav-icon"></i>
+          <span class="mobile-nav-text">Scene</span>
+        </a>
+
+        <a href="relax.html" class="mobile-nav-link">
+          <i class="fas fa-heartbeat mobile-nav-icon"></i>
+          <span class="mobile-nav-text">Relax & Breathe</span>
+        </a>
+
+        <a href="hope.html" class="mobile-nav-link">
+          <i class="fas fa-comments mobile-nav-icon"></i>
+          <span class="mobile-nav-text">Talk To Hope</span>
+        </a>
+      </ul>
+    </nav>
+
+    <!-- mobile-bottom-menu -->
+    <nav class="mobile-b-nav">
+      <ul class="mobile-b-nav-links">
+        <a href="index.html" class="mobile-b-nav-link">
+          <i class="fas fa-home mobile-b-icon"></i>
+        </a>
+        <a href="music.html" class="mobile-b-nav-link">
+          <i class="fas fa-music mobile-b-icon"></i>
+        </a>
+
+        <a href="scene.html" class="mobile-b-nav-link">
+          <i class="fas fa-mountain mobile-b-icon mobile-b-active"></i>
+        </a>
+
+        <a href="relax.html" class="mobile-b-nav-link">
+          <i class="fas fa-heartbeat mobile-b-icon"></i>
+        </a>
+
+        <a href="hope.html" class="mobile-b-nav-link">
+          <i class="fas fa-comments mobile-b-icon"></i>
+        </a>
+      </ul>
+    </nav>
+
+    <!-- content -->
+
+    <div class="content scene">
+      <div class="scene-header">
+        <h1 class="scene-title">Scene</h1>
+      </div>
+      <div class="scene-card-container">
+        <!-- sunet lake -->
+        <div class="scene-cards">
+          <img
+            src="./images/scene/photos/lake-sunset.jpg"
+            alt=""
+            class="scene-image"
+          />
+          <div class="scene-vid-title">
+            <span>Lake Sunset</span>
+            <i class="fas fa-play-circle fa-2x play-video-icon"></i>
+          </div>
+        </div>
+        <!-- sunset-content -->
+        <div class="sunset-content">
+          <i class="fas fa-times exit-video"></i>
+          <video loop class="video-container-sunset">
+            <source src="./videos/sunset-lake.mp4" type="video/mp4" />
+          </video>
+          <audio class="video-audio">
+            <source src="./music/scene-audio/sunset lake.mp3" />
+          </audio>
+          <i class="fas fa-chevron-left hide-time-select-icon"></i>
+          <!-- time select -->
+          <div class="time-select">
+            <i class="fas fa-play pause-video"></i>
+            <button class="select-btn" data-time="120">2 Minutes</button>
+            <button class="select-btn" data-time="300">5 Minutes</button>
+            <button class="select-btn" data-time="600">10 Minutes</button>
+            <h3 class="time-display">10:00</h3>
+          </div>
+        </div>
+
+        <!-- ocean waves -->
+        <div class="scene-cards">
+          <img
+            src="./images/scene/photos/river forest.jpg"
+            alt=""
+            class="scene-image"
+          />
+          <div class="scene-vid-title">
+            <span>River Forest</span
+            ><i class="fas fa-play-circle fa-2x play-video-icon-ocean"></i>
+          </div>
+        </div>
+        <!-- river content -->
+        <div class="ocean-content">
+          <i class="fas fa-times exit-video-ocean"></i>
+          <video muted loop class="video-container-ocean">
+            <source src="./videos/river.mp4" type="video/mp4" />
+          </video>
+          <audio class="video-audio-ocean">
+            <source src="./music/scene-audio/river.mp3" />
+          </audio>
+          <i class="fas fa-chevron-left hide-time-select-icon-ocean"></i>
+          <!-- time select -->
+          <div class="time-select-ocean">
+            <i class="fas fa-play pause-video-ocean"></i>
+            <button class="select-btn-ocean" data-time="120">2 Minutes</button>
+            <button class="select-btn-ocean" data-time="300">5 Minutes</button>
+            <button class="select-btn-ocean" data-time="600">10 Minutes</button>
+            <h3 class="time-display-ocean">10:00</h3>
+          </div>
+        </div>
+
+        <!-- rain -->
+        <div class="scene-cards">
+          <img
+            src="./images/scene/photos/rain-night.jpg"
+            alt=""
+            class="scene-image"
+          />
+          <div class="scene-vid-title">
+            <span>Rain</span>
+            <i class="fas fa-play-circle fa-2x play-video-icon-rain"></i>
+          </div>
+        </div>
+        <!-- rain content -->
+        <div class="rain-content">
+          <i class="fas fa-times exit-video-rain"></i>
+          <video muted loop class="video-container-rain">
+            <source src="./videos/rain.mp4" type="video/mp4" />
+          </video>
+          <audio class="video-audio-rain">
+            <source src="./music/scene-audio/rain.mp3" />
+          </audio>
+          <i class="fas fa-chevron-left hide-time-select-icon-rain"></i>
+          <!-- time select -->
+          <div class="time-select-rain">
+            <i class="fas fa-play pause-video-rain"></i>
+            <button class="select-btn-rain" data-time="120">2 Minutes</button>
+            <button class="select-btn-rain" data-time="300">5 Minutes</button>
+            <button class="select-btn-rain" data-time="600">10 Minutes</button>
+            <h3 class="time-display-rain">10:00</h3>
+          </div>
+        </div>
+
+        <!-- waterfall -->
+        <div class="scene-cards">
+          <img
+            src="./images/scene/photos/falls.jpg"
+            alt=""
+            class="scene-image"
+          />
+          <div class="scene-vid-title">
+            <span>The Waterfall</span>
+            <i class="fas fa-play-circle fa-2x play-video-icon-fall"></i>
+          </div>
+        </div>
+        <!-- waterfall content -->
+        <div class="fall-content">
+          <i class="fas fa-times exit-video-fall"></i>
+          <video muted loop class="video-container-fall">
+            <source src="./videos/fall.mp4" type="video/mp4" />
+          </video>
+          <audio class="video-audio-fall">
+            <source src="./music/scene-audio/fall.mp3" />
+          </audio>
+          <i class="fas fa-chevron-left hide-time-select-icon-fall"></i>
+          <!-- time select -->
+          <div class="time-select-fall">
+            <i class="fas fa-play pause-video-fall"></i>
+            <button class="select-btn-fall" data-time="120">2 Minutes</button>
+            <button class="select-btn-fall" data-time="300">5 Minutes</button>
+            <button class="select-btn-fall" data-time="600">10 Minutes</button>
+            <h3 class="time-display-fall">10:00</h3>
+          </div>
+        </div>
+
+        <!-- snow -->
+        <div class="scene-cards">
+          <img
+            src="./images/scene/photos/snow.jpg"
+            alt=""
+            class="scene-image"
+          />
+          <div class="scene-vid-title">
+            <span>Snow</span>
+            <i class="fas fa-play-circle fa-2x play-video-icon-snow"></i>
+          </div>
+        </div>
+        <!-- snow content -->
+        <div class="snow-content">
+          <i class="fas fa-times exit-video-snow"></i>
+          <video muted loop class="video-container-snow">
+            <source src="./videos/snow.mp4" type="video/mp4" />
+          </video>
+          <audio class="video-audio-snow">
+            <source src="./music/scene-audio/snow.mp3" />
+          </audio>
+          <i class="fas fa-chevron-left hide-time-select-icon-snow"></i>
+          <!-- time select -->
+          <div class="time-select-snow">
+            <i class="fas fa-play pause-video-snow"></i>
+            <button class="select-btn-snow" data-time="120">2 Minutes</button>
+            <button class="select-btn-snow" data-time="300">5 Minutes</button>
+            <button class="select-btn-snow" data-time="600">10 Minutes</button>
+            <h3 class="time-display-snow">10:00</h3>
+          </div>
+        </div>
+
+        <!-- ice lake -->
+        <div class="scene-cards">
+          <img
+            src="./images/scene/photos/ice-lake.jpg"
+            alt=""
+            class="scene-image"
+          />
+          <div class="scene-vid-title">
+            <span>Mountain Lake</span>
+            <i class="fas fa-play-circle fa-2x play-video-icon-ice"></i>
+          </div>
+        </div>
+        <!-- ice lake content -->
+        <div class="ice-content">
+          <i class="fas fa-times exit-video-ice"></i>
+          <video muted loop class="video-container-ice">
+            <source src="./videos/ice-lake.mp4" type="video/mp4" />
+          </video>
+          <audio class="video-audio-ice">
+            <source src="./music/scene-audio/ice lake.mp3" />
+          </audio>
+          <i class="fas fa-chevron-left hide-time-select-icon-ice"></i>
+          <!-- time select -->
+          <div class="time-select-ice">
+            <i class="fas fa-play pause-video-ice"></i>
+            <button class="select-btn-ice" data-time="120">2 Minutes</button>
+            <button class="select-btn-ice" data-time="300">5 Minutes</button>
+            <button class="select-btn-ice" data-time="600">10 Minutes</button>
+            <h3 class="time-display-ice">10:00</h3>
+          </div>
+        </div>
+
+        <!--  -->
+      </div>
+    </div>
+    <script src="../js/scene.js"></script>
+  </body>
+</html>
