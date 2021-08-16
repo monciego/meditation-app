@@ -959,6 +959,7 @@ a {
 }
 .scene-cards {
   max-width: 300px;
+  width: 300px;
   height: 350px;
   border-radius: 10px;
   z-index: 1;
@@ -966,6 +967,11 @@ a {
   box-shadow: 0 5px 25px rgba(0 0 0 / 20%);
   transition: 0.3s ease;
   margin: 1rem 0.5rem;
+}
+.scene-cards img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .scene-cards:hover {
   transform: translateY(-5px);
